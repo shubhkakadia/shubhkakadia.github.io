@@ -13,12 +13,11 @@ body::-webkit-scrollbar {
 }
 
 .progress {
-    height: 2px;
+    height: 2%;
     width: 0%;
     background-color: #CBEBF5;
     position: fixed;
     top: 0;
-    left: 0;
     animation: progress 1s linear;
   }
   @keyframes progress {
@@ -29,11 +28,11 @@ body::-webkit-scrollbar {
 
 .icon{
     cursor: pointer;
-    margin-right: 1%;
+    margin-right: 3%;
 }
 
 .name{
-    font-size: 35px;
+    font-size: 2.5vw;
     font-weight: bold;
     margin-bottom: 2%;
 }
@@ -45,7 +44,7 @@ body::-webkit-scrollbar {
     transition: 1s;
 
     border-radius: 7px;
-    padding: 30px;
+    padding: 3%;
     background: linear-gradient(to left, #212124 50%, #CBEBF5 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
@@ -70,7 +69,7 @@ body::-webkit-scrollbar {
 .item{
     display: inline;
     margin-left: 4%;
-    font-size: 17px;
+    font-size: 1vw;
     width: 75vw;
 }
 
@@ -80,6 +79,7 @@ body::-webkit-scrollbar {
     background: linear-gradient(to left, auto 50%, #F0F8FF 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
+    font-size: 1vw;
 }
 .item_content:hover{
     transform: scale(1.05);
@@ -95,13 +95,13 @@ body::-webkit-scrollbar {
 }
 
 .headings{
-    font-size: 20px;
+    font-size: 1.5vw;
     font-weight: bold;
     margin-bottom: 2%;
 }
 
 .sub_headings{
     margin-top: 1%;
-    font-size: 17px;
+    font-size: 1vw;
     font-weight: bold;
 }
