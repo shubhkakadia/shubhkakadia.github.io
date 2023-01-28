@@ -70,11 +70,11 @@ body::-webkit-scrollbar {
     display: inline;
     margin-left: 4%;
     font-size: 1vw;
-    width: 75vw;
+    /* width: 70vw; */
 }
 
 .item_content{
-    border-radius: 7px;
+    border-radius: 10px;
     padding: 1px;
     background: linear-gradient(to left, auto 50%, #F0F8FF 50%) right;
     background-size: 200%;
@@ -88,12 +88,18 @@ body::-webkit-scrollbar {
 
 .item_date{
     display: inline;
+    width: 10vw;
+    float: right;
+    display: flex;
+    justify-content: center;
+}
+.long_dates{
+    display: inline;
     width: 25vw;
     float: right;
     display: flex;
     justify-content: center;
 }
-
 .headings{
     font-size: 1.5vw;
     font-weight: bold;
