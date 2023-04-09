@@ -63,14 +63,13 @@ body::-webkit-scrollbar {
 }
 
 .bullet_points{
-    margin-left: 5%;
+    margin-left: 8%;
+    width: 60%;
 }
 
 .item{
-    display: inline;
     margin-left: 4%;
     font-size: 1vw;
-    /* width: 70vw; */
 }
 
 .item_content{
@@ -87,18 +86,14 @@ body::-webkit-scrollbar {
 }
 
 .item_date{
-    display: inline;
     width: 10vw;
     float: right;
     display: flex;
     justify-content: center;
 }
 .long_dates{
-    display: inline;
-    width: 25vw;
+    width: 25%;
     float: right;
-    display: flex;
-    justify-content: center;
 }
 .headings{
     font-size: 1.5vw;
@@ -110,4 +105,15 @@ body::-webkit-scrollbar {
     margin-top: 1%;
     font-size: 1vw;
     font-weight: bold;
+}
+
+.flexBetween{
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    /* color: white; */
+    /* text-decoration: none; */
+    /* color: none; */
 }
